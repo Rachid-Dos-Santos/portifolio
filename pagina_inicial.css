@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+
+@keyframes corpo_animation{
+
+    5%{
+        border-left: 5px solid  white;
+        height: 245px;
+        margin-left: 40px;
+        margin-top: 70px;
+        padding-left: 10px;
+        padding-top: 0%;
+        color: rgb(27, 26, 26);
+        background-color: rgb(27, 26, 26);
+    }
+
+    25%{
+        border-left: 5px solid  white;
+        height: 245px;
+        margin-left: 40px;
+        margin-top: 70px;
+        padding-left: 10px;
+        padding-top: 0%;
+    }
+
+    50%{
+        border-left: 5px solid  white;
+        height: 245px;
+        margin-left: 40px;
+        margin-top: 70px;
+        padding-left: 20px;
+        padding-top: 0%; 
+    }
+
+    75%{
+        border-left: 5px solid  white;
+        height: 245px;
+        margin-left: 40px;
+        margin-top: 70px;
+        padding-left: 30px;
+        padding-top: 0%;
+    }
+
+    100%{
+        border-left: 5px solid  white;
+        height: 245px;
+        margin-left: 40px;
+        margin-top: 70px;
+        padding-left: 40px;
+        padding-top: 0%;
+    }
+}
+
+@keyframes btn{
+
+    to{
+        
+    }
+
+    for{
+        transform: scale(1.6);
+    }
+
+    
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(27, 26, 26);
+    margin: 0;
+    padding: 0;
+}
+
+.navegacao{
+   padding-top: 8px;
+}
+
+ul{
+    display: flex;
+}
+
+.logo{
+    font-family:serif;
+    color: white;
+    margin-right: 10%;
+    font-size: larger;
+}
+
+.email{
+    margin-left: 10%;
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 8px;
+}
+
+li{
+    color: white;
+    font-size: large;
+    list-style: none;
+    margin-right: 55px;
+}
+
+a{
+    color: rgb(93, 251, 251);
+    text-decoration: none;
+}
+
+a:hover{
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(93, 251, 251);
+    transition: all .60s ease-in-out;
+}
+
+.subemail:hover{
+    padding-bottom: 0;
+    border-bottom: 1px solid rgb(93, 251, 251);
+}
+
+.sublogo{
+    color:rgb(93, 251, 251);
+}
+
+hr{
+    display: none;
+    width: 600px;
+    height: 4px;
+    margin-top: 50px;
+    margin-left: 0;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.corpo{
+    border-left: 5px solid  white;
+    height: 245px;
+    margin-left: 40px;
+    margin-top: 70px;
+    padding-left: 40px;
+    padding-top: 0%;
+    animation: corpo_animation 1s linear;  
+}
+
+.port, b{
+    color: rgb(93, 251, 251);
+}
+
+.sbm{
+    animation: corpo_animation 1s linear;
+    background-color: rgb(93, 251, 251);
+    width: 220px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 18px;
+    animation: btn .60s alternate infinite ease-in-out;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sbm:hover{
+    background-color: rgb(9, 194, 194);
+    animation: none;
+    box-shadow: white 1px 1px 200px;
+    border: none;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.icon{
+    width: 40px;
+    margin-right: 40px;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+    border: none;
+    padding: 0;
+    box-shadow: gray 1px 1px 40px;
+    border-radius: 100%;
+}
+
+h1,h2,p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+b{
+    text-decoration: wavy;
+    color: rgb(93, 251, 251);
+}
+
+.ft_perfil{
+    position: absolute;
+    top: 42%;
+    left: 63%;
+    border-radius: 100%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 400px;
+    box-shadow: grey  5px 5px 15px;
+}
+
+.subcorpo{
+    text-align: center;
+    margin-top: 100px;
+}
